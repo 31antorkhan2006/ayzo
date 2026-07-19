@@ -10,4 +10,13 @@ let i=0;
 setInterval(()=>{
   i=(i+1)%images.length;
   document.getElementById("slide").src=images[i];
-},3000);
+},3000);.slider{
+  width:90%;
+  margin:20px auto;
+}
+.slider img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  border-radius:12px;
+}
